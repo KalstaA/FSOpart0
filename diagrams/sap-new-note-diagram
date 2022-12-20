@@ -1,0 +1,9 @@
+note over browser:
+On submit event handler prevents the default handling of form submit and starts running JavaScript code
+it fetched from server.
+-> creates new note
+-> adds it to note list
+-> rerenders note list on page
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
